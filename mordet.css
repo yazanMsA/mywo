@@ -1,0 +1,358 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    height: 45%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.top .ul1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.top .ul1 li{
+    display: inline-block;
+    color: white;
+}
+.top .content{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 7%;
+    width: 55%;
+    background-color: grey;
+}
+.top .content .name{
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    color: white;
+    font-size: 20px;
+}
+.top .content .ul2{
+    position: absolute;
+    right: 5%;
+    top: 18%;
+}
+.top .content .ul2 li{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+.top .conH1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 40px;
+    color: white;
+}
+.container{
+    height: 2000px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 5%;
+}
+.container .one{
+    height: 100%;
+    width: 75%;
+    background-color: rgb(220, 220, 220);
+    display: inline-block;
+    border: 0.5px solid silver;
+}
+.container .one .tour5{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+.container .one .th1{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+.container .one .pr1{
+    position: absolute;
+    left: 5%;
+    top: 33%;
+    color: black;
+    font-size: 15px;
+}
+.container .one .desc1{
+    position: absolute;
+    left: 5%;
+    top: 48%;
+}
+.container .one .desc2{
+    position: absolute;
+    left: 40%;
+    top: 48%;
+}
+.container .one .pr2{
+    position: absolute;
+    left: 5%;
+    top: 68%;
+    font-size: 15px;
+    color: black;
+}
+.container .one .box1{
+    position: absolute;
+    left: 6%;
+    top: 76%;
+    height: 22%;
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+}
+/*The small pictures*/
+/*The First*/
+.container .one .box1 .c2{
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
+.container .one .box1 .f1c{
+    position: absolute;
+    left: 15%;
+    top: 6%;
+    /*color: white;*/
+}
+.container .one .box1 .fc2{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    /*color: white;*/
+}
+/*The Second*/
+.container .one .box1 .c3{
+    position: absolute;
+    left: 2%;
+    top: 25%;
+}
+.container .one .box1 .f2c{
+    position: absolute;
+    left: 15%;
+    top: 26%;
+    /*color: white;*/
+}
+.container .one .box1 .f2c2{
+    position: absolute;
+    left: 15%;
+    top: 36%;
+    /*color: white;*/
+}
+/*The Third*/
+.container .one .box1 .c5{
+    position: absolute;
+    left: 2%;
+    top: 46%;
+}
+.container .one .box1 .f3c{
+    position: absolute;
+    left: 15%;
+    top: 47%;
+    /*color: white;*/
+}
+.container .one .box1 .f3c2{
+    position: absolute;
+    left: 15%;
+    top: 57%;
+    /*color: white;*/
+}
+/*The Fourth*/
+.container .one .box1 .c1{
+    position: absolute;
+    left: 2%;
+    top: 66%;
+}
+.container .one .box1 .f4c{
+    position: absolute;
+    left: 15%;
+    top: 67%;
+    /*color: white;*/
+}
+.container .one .box1 .f4c2{
+    position: absolute;
+    left: 15%;
+    top: 76%;
+    /*color: white;*/
+}
+/*The Fourth*/
+.container .one .box1 .c4{
+    position: absolute;
+    left: 2%;
+    bottom: 4%;
+}
+.container .one .box1 .f5c{
+    position: absolute;
+    left: 15%;
+    bottom: 9%;
+    /*color: white;*/
+}
+.container .one .box1 .f5c2{
+    position: absolute;
+    left: 15%;
+    bottom: 1%;
+    /*color: white;*/
+}
+.container .two{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: inline-block;
+}
+.container .two .first{
+    height: 17%;
+    width: 20%;
+    background-color: rgb(220, 220, 220);
+    position: absolute;
+    right: 0%;
+    border: 0.5px solid silver;
+}
+.container .two .first .th6{
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    font-size: 20px;
+}
+.container .two .first .tpr1{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    font-size: 15px;
+}
+.container .two .first .tpr2{
+    position: absolute;
+    top: 27%;
+    left: 60%;
+    font-size: 15px;
+}
+.container .two .second{
+    position: absolute;
+    top: 20.5%;
+    right: 0%;
+    height: 25%;
+    width: 20%;
+    background-color: rgb(220, 220, 220);
+    border: 0.5px solid silver;   
+}
+.container .two .second .sh6{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    font-size: 20px;
+}
+.container .two .second .in1{
+    position: absolute;
+    top: 15%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+    font-size: 16px;
+}
+.container .two .second .in2{
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+    font-size: 16px;
+}
+.container .two .second .in3{
+    position: absolute;
+    top: 45%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+    font-size: 16px;
+}
+.container .two .second .but1{
+    position: absolute;
+    top: 60%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+    font-size: 16px;
+}
+.container .two .second .spr1{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: 15px;
+}
+.container .two .third{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    height: 20%;
+    width: 20%;
+    background-color: rgb(220, 220, 220);
+    border: 0.5px solid silver;
+}
+.container .two .third .thi6{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    font-size: 20px;
+}
+.container .two .third .thpr1{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 16px;
+}
+.container .two .third .listing{
+    position: absolute;
+    top: 54%;
+    left: 2.5%;
+    border-radius: 5px;
+}
+.container .two .fourth{
+    position: absolute;
+    top: 75%;
+    right: 0%;
+    height: 25%;
+    width: 20%;
+    background-color: rgb(220, 220, 220);
+    border: 0.5px solid silver; 
+}
+.container .two .fourth .fh6{
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    font-size: 20px;
+}
+.container .two .fourth .fin1{
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+}
+.container .two .fourth .fin2{
+    position: absolute;
+    top: 45%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+}
+.container .two .fourth .fin3{
+    position: absolute;
+    top: 60%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+}
+.container .two .fourth .fbut{
+    position: absolute;
+    top: 75%;
+    left: 12.5%;
+    height: 7%;
+    width: 75%;
+}
